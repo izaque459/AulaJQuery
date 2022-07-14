@@ -8,7 +8,7 @@ function consultaCEP(){
         type: "GET" ,
         success:function(response){
             console.log(response);
-            document.getElementById("logradouro").innerHTML = response.logradouro
+            document.getElementById("logradouro").innerHTML=response.logradouro
         }
     
     })
