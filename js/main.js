@@ -1,9 +1,8 @@
-const { get } = require("jquery");
 
 function consultaCEP(){
     $.ajax({
         url: "http://viacep.com.br/ws/01001000/json/" ,
-        type: GET ,
+        type: "GET" ,
         success:function(response){
             console.log(response);
         }
